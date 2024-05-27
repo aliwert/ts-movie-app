@@ -3,13 +3,11 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   background-color: #cd094e;
   font-family: "Poppins", sans-serif;
 }
-
 header {
   background-color: #0615de;
   padding: 1rem;
@@ -18,7 +16,6 @@ header {
   gap: 40rem;
   color: white;
 }
-
 .search {
   padding: 0.5rem 1rem;
   border-radius: 50px;
@@ -28,23 +25,18 @@ header {
   color: #eee;
   font-size: 1rem;
 }
-
 .search::placeholder {
   color: #afb2dc;
 }
-
 .search:focus {
   outline: none;
   background-color: #05082c;
 }
-
 main {
   display: flex;
   flex-wrap: wrap;
 }
-
 .movie {
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   width: 300px;
   background-color: #0d1dd2;
@@ -56,7 +48,6 @@ main {
 .movie img {
   width: 100%;
 }
-
 .movie-info {
   display: flex;
   justify-content: space-between;
@@ -69,13 +60,11 @@ main {
 .movie-info h3 {
   margin: 0;
 }
-
 .movie-info span {
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
   font-weight: bold;
 }
-
 .movie-info span.green {
   color: green;
 }
@@ -85,7 +74,6 @@ main {
 .movie-info span.red {
   color: red;
 }
-
 .overview {
   position: absolute;
   top: 0;
@@ -99,11 +87,6 @@ main {
   max-width: 100%;
   overflow: auto;
 }
-
 .movie:hover .overview {
   transform: translateY(0);
-}
-
-.overview h4 {
-  margin-top: 0;
 }
