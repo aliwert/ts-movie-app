@@ -3,3 +3,11 @@
 ## Introduction
 - The Movie Search App allows users to search for movies by title and view detailed information about each movie, including its poster, rating, and overview. This application is built using TypeScript and fetches data from The Movie Database (TMDb) API.
 
+## Features
+
+- Search for movies by name
+- Display movie posters and information
+- Rate movies based on user preferences
+- View movie overviews for more details
+
+
